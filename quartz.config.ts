@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "赛博扫盲知识分享站",
+    pageTitle: "赛博扫盲",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
