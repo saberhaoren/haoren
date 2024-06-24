@@ -1,18 +1,37 @@
-# Quartz v4
+# 欢迎
 
-> “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
+本项目一个是略微正经的**赛博文盲知识科普站**，以稀碎、繁琐但实用的科普文章让小白学会如何进一步掌控自己的个人电脑。我们承认做的是最低端的科普，所以也欢迎有基础的用户和观众也前来看乐子。
 
-Quartz is a set of tools that helps you publish your [digital garden](https://jzhao.xyz/posts/networked-thought) and notes as a website for free.
-Quartz v4 features a from-the-ground rewrite focusing on end-user extensibility and ease-of-use.
+# 关于本站内容
 
-🔗 Read the documentation and get started: https://quartz.jzhao.xyz/
+本站目前分为以下主要板块，并不定时更新：
 
-[Join the Discord Community](https://discord.gg/cRFFHYye7t)
+- 万物起源 - 本账号主要背景且热梗介绍，真小白用户可以通过术语来了解视频中用户讨论的内容。
+- 史记 - 计算机硬件及一般操作方法
+- 永乐大典 - 一些常用程序的安装和常用电脑知识分享
+- 康熙词典 - 一些小白可能会问的疑问
+- 清朝老片 - 以造梗形式进行的技术科普1
 
-## Sponsors
+在所有技术文件中，使用优质、免费的开源工具和技术资源进行分享。这可能不是最优学习路径，但一定是最适合小白初学电脑时应该学习的东西。
 
-<p align="center">
-  <a href="https://github.com/sponsors/jackyzha0">
-    <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
-  </a>
-</p>
+# 关于我们
+
+我们专注于使用不正经的方式进行最基础的赛博扫盲。
+
+Bilibili、抖音、小红书以及微信视频号等主流短视频平台 ID ：@赛博好人
+
+Bilibili 空间 ：[赛博好人](https://space.bilibili.com/27314150)
+
+对于视频创作，我们使用能够让人眼前一黑的非主流式拍摄手法，以图用户欢乐，且让小白能够在气氛欢快的弹幕和评论环境中学习到一些最最最基础的内容。
+
+对于技术文章类创作，我们使用完全流程化的图示和文本，用最呆的方式给用户进行技术扫盲。我们的希望是，让呆子也能顺利、安全且高效的操控他的电脑。
+
+# 联系我们
+
+任何意见、合作意愿或投稿都可以在后台私信或邮箱 saberhaoren@outlook.com 中提供，我们会争取合理采纳每一条有诚意且合理的意见。
+
+对于投稿，目前接受本网站技术文章的投稿，请原创且小白友好。
+
+# 鼓励我们
+
+目前团队为 2 人兼职运营，工作日绝大多数时间都在工作，非常疲惫！但您的日常回复与评论已经是对我们工作的最大肯定，是我们更新的最大动力。请用您的评论与点赞让我们保持更新的热情！
