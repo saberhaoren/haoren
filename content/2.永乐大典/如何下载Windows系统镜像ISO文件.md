@@ -38,7 +38,7 @@ Win10下载地址：https://www.microsoft.com/zh-cn/software-download/windows10
 
 ![[8.png]]
 
-现在，在您之前选择的保存文件路径中可以找到您下载的系统镜像ISO文件了
+现在，可以在您之前选择的保存文件路径中可以找到您下载的系统镜像ISO文件了
 
 ![[9.png]]
 
