@@ -36,9 +36,9 @@ Win10下载地址：https://www.microsoft.com/zh-cn/software-download/windows10
 
 文件下载已经完成，点击完成
 
-![[7.png]]
+![[8.png]]
 
-现在，在您之前选择的保存文件路径中可以知道您下载的系统镜像ISO文件了
+现在，可以在您之前选择的保存文件路径中可以找到您下载的系统镜像ISO文件了
 
 ![[9.png]]
 
@@ -64,6 +64,6 @@ Win11下载地址：https://www.microsoft.com/zh-cn/software-download/windows11
 网站地址：https://hellowindows.cn/
 ```
 
-下载方法与上面的类似，在绿色的ed2k按钮上鼠标右键，然后选择复制链接，最后复制到迅雷等软件中即可下载
+下载方法与上面的类似，在绿色的ed2k按钮上鼠标右键，然后选择复制链接，最后黏贴到迅雷等软件中即可下载
 
 ![[12.png]]
