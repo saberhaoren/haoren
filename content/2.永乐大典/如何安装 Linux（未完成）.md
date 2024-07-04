@@ -42,10 +42,10 @@ sudo umount /dev/sda1 或 sudo umount /mnt
 > [!NOTE]
 > 注意！您的U盘里存放的数据会被清除，请您提前备份
 
-1. 下载 linux (ArchLinux) ISO
+1. 下载 linux (以 「ArchLinux」 为例) ISO
 
 ```type="bash"
-Archlinux iso 下载地址：https://mirrors.aliyun.com/archlinux/iso/2024.07.01/archlinux-2024.07.01-x86_64.iso
+ArchLinux iso 下载地址：https://mirrors.aliyun.com/archlinux/iso/2024.07.01/archlinux-2024.07.01-x86_64.iso
 注：应当将链接中的两处 2024.07 替换为安装时的日期
 ```
 
