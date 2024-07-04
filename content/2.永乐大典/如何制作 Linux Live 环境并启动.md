@@ -1,4 +1,4 @@
-# 使用 Linux 安装 Linux 
+# 使用 Linux 制作 Linux Live 环境
 ## 0 Linux 分区/文件系统规则
 Linux「一切皆文件」，连硬盘和其分区也是一个「文件」<br>
 对于机械硬盘：<br>
@@ -53,7 +53,7 @@ ArchLinux iso 下载地址：https://mirrors.aliyun.com/archlinux/iso/2024.07.01
 
 2. 定位 U 盘
 > [!NOTE]
-> 如果需要在 Windows 操作系统上制作 Live 环境，请查看 [如何安装操作系统](/2.永乐大典/如何安装操作系统) 并使用 rufus 软件创建 Live 环境，并跳转至本教程的第三步继续安装
+> 如果需要在 Windows 操作系统上制作 Live 环境，请查看 [如何安装操作系统](/2.永乐大典/如何安装操作系统) 并使用 rufus 软件创建 Live 环境，并跳转至本教程的第三步继续
 
 插入 U 盘，在命令行中输入 
 ```type="bash"
@@ -81,11 +81,12 @@ sudo dd if=～/Downloads/archlinux-2024.07.01-x86_64.iso of=/dev/sda
 // 输入你的密码，等待命令执行完成
 ```
 
-## 3 开始安装
+## 3 启动 Live 环境
 1. 从 U 盘启动
 确保电脑处于关机状态，按电源键开机，在看到品牌标志图片时按下f2（不同电脑和主板进入的方式不同），进入启动项选择的界面，使用上下键选择您的USB设备并按下回车键进入。
 
 ![[boot.png]]
 ![[bootmanager.png]]
 
-## 4 Welcome to ArchLinux!
+## 4 继续安装
+这时待安装 Linux 的电脑应该已经进入了 Live 环境，点击下方的链接继续安装进程
