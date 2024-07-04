@@ -71,7 +71,7 @@ FSAVAIL: 硬盘分区可用大小<br>
 FSUSE: 硬盘已用百分比，硬盘分区大小可通过 FSAVAIL / (1 - FSUSE) 计算得出<br>
 MOUNTPOINTS: 挂载点<br>
 
-记下 U 盘的卷标和大小，并获取其设备名称
+记下 U 盘的卷标和大小，并获取其设备名称<br>
 例如 U 盘位于 /dev/sda
 
 3. 写入 ISO

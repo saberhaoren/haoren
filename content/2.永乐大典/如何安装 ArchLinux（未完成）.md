@@ -68,4 +68,22 @@ Network configuration (网络设置): 用于在图形化界面中连接无线网
 
 ![[archinstall_disk.png]]
 
-在这里寻找正确的磁盘，
+每一列分别为：<br>
+Model: 设备型号<br>
+Path: Linux 中的磁盘设备位置<br>
+Type: 磁盘类型<br>
+Size: 磁盘大小<br>
+Free Space: 空余空间<br>
+Sector size: 扇区大小<br>
+Read only: 是否只读，True 为只读，False 为可度可写<br>
+在这里寻找正确的磁盘，具体寻找过程查看 [制作 Live 环境](/2.永乐大典/如何制作-Linux-Live-环境并启动#2-创建-live-环境) 的第二小节<br>
+将焦点移动至正确的硬盘上，按下回车
+
+![[archinstall_disk_0.png]]
+
+将焦点移动到 xfs, 按下回车
+
+![[archinstall_disk_1.png]]
+
+将焦点移动到 no, 按下回车
+
