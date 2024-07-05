@@ -113,3 +113,60 @@ Read only: 是否只读，True 为只读，False 为可度可写<br>
 ![[archinstall_user.png]]
 
 然后移动焦点至 Confirm and exit, 按下回车, 返回第一页
+
+## 3.6 外观配置
+
+移动焦点至 Profile, 按下三次回车
+
+![[archinstall_profile.png]]
+
+然后移动焦点至 Kde, 按下回车
+
+![[archinstall_profile_driver.png]]
+
+移动焦点至 Graphics driver, 按下回车
+
+![[archinstall_profile_driver_s.png]]
+
+选择合适的显卡驱动
+
+> [!Note]
+> 如果你是在虚拟机中安装的 ArchLinux, 选择最后一项<br>
+> 如果你使用的是 Nvidia RTX 20 系列或更高的显卡, 选择第四项<br>
+> 如果你使用的是其他 Nvidia 显卡, 选择第六项<br>
+> 其他显卡选择第一项(默认)即可<br>
+
+移动焦点到某一项后, 按下回车<br>
+然后将焦点移动至 Back, 按下回车, 回到第一页
+
+## 3.7 音频
+
+移动焦点至 Audio, 按下回车
+
+![[archinstall_audio.png]]
+
+移动焦点至 Pipewire, 按下回车, 回到第一页
+
+## 3.8 网络
+
+移动焦点至 Network configuration, 按下回车
+
+![[archinstall_net.png]]
+
+移动焦点至 use NetworkManager, 按下回车, 回到第一页
+
+## 3.9 时区
+
+移动焦点至 Timezone, 按下回车<br>
+然后输入
+```type="bash"
+/Asia/Shanghai
+```
+按下回车, 回到第一页
+
+## 4 开始安装
+
+全部设置完成后, 移动焦点至 Install, 按下两次回车, 正式开始安装<br>
+安装过程中, 不要断开网络连接, 也不要关闭电脑<br>
+这时你可以坐和放宽(?, 启动原神或在屏幕前等待安装完成<br>
+安装速度由设备性能和网络连接质量决定<br>
