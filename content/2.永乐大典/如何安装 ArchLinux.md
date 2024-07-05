@@ -173,7 +173,7 @@ Read only: 是否只读，True 为只读，False 为可度可写<br>
 这时你可以坐和放宽(?, 启动原神或在屏幕前等待安装完成<br>
 安装速度由设备性能和网络连接质量决定<br>
 
-## 5 安装完成后
+## 5 初来乍到
 
 ![[archinstall_f.png]]
 
@@ -197,4 +197,23 @@ GRUB_CMDLINE_LINUX_DEFAULT="loglevel=3 nvidia-drm.modeset=1"
 ```
 用于确保 Wayland 可以使用<br>
 随后, 按下键盘上的 Ctrl 和 O 键, 然后按下回车<br>
-最后按下 Ctrl 和 X 键退出
+最后按下 Ctrl 和 X 键退出<br>
+
+随后, 输入
+```type="bash"
+grub-mkconfig -o /boot/grub/grub.cfg && pacman -S noto-fonts-cjk --noconfirm 
+```
+等待命令完成
+
+### 5.2 退出 Live 环境, 重新启动
+
+输入 exit, 按下回车, 然后输入 reboot, 重启电脑, 这时拔下 U 盘
+
+![[archlinux_login.png]]
+
+输入密码
+
+![[kde_base.png]]
+
+出现如图中的 OOBE 后, 说明 ArchLinux 安装完成<br>
+但是目前系统内还没有中文输入法, 如果需要进一步配置, 查看 [配置 ArchLinux](/2.永乐大典/如何配置-ArchLinux（未完成）)

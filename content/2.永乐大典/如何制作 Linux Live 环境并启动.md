@@ -90,4 +90,4 @@ sudo dd if=～/Downloads/archlinux-2024.07.01-x86_64.iso of=/dev/sda
 
 ## 4 继续安装
 这时待安装 Linux 的电脑应该已经进入了 Live 环境，点击下方的链接继续安装进程<br>
-「ArchLinux」发行版 --- [安装 ArchLinux](/2.永乐大典/如何安装-ArchLinux（未完成）)
+「ArchLinux」发行版 --- [安装 ArchLinux](/2.永乐大典/如何安装-ArchLinux)
