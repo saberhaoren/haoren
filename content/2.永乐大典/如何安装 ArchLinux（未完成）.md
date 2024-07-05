@@ -85,5 +85,31 @@ Read only: 是否只读，True 为只读，False 为可度可写<br>
 
 ![[archinstall_disk_1.png]]
 
-将焦点移动到 no, 按下回车
+将焦点移动到 no, 按下回车, 返回第一页
 
+## 3.4 引导器
+
+移动焦点至 Bootloader, 按下回车
+
+![[archinstall_boot.png]]
+
+移动焦点至 Grub, 按下回车，返回第一页
+
+## 3.5 根密码 & 账户
+
+移动焦点至 Root password, 按下回车<br>
+选择一个你能记住的密码, 连续输入两次, 回到第一页
+> [!Note]
+> 该密码不可遗失，否则你将不能安装任何软件或升级系统
+
+然后移动焦点至 User account, 按下两次回车<br>
+
+> [!Note]
+> 用户名只能由小写字母，数字和下划线组成
+
+输入一个你喜欢的用户名, 然后按下回车<br>
+连续输入两次之前设置的根密码, 然后按下回车<br>
+
+![[archinstall_user.png]]
+
+然后移动焦点至 Confirm and exit, 按下回车, 返回第一页
