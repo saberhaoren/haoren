@@ -6,6 +6,10 @@ Bilibili 视频 : [【清朝老片】如何安装Steam](https://www.bilibili.com
 
 Bilibili 视频 : [【永乐大典】使用PC注册STEAM](https://www.bilibili.com/video/BV1hcgXeJEhn/)
 
+# 如何在Steam中购买《Wallpaper:Engine》
+
+Bilibili 视频 :[【清朝老片】如何在Steam中购买《Wallpaper:Engine》](https://www.bilibili.com/video/BV1Xx4y1t76P/)
+
 ## Steam 人机检测
 
 ## Steam ++
