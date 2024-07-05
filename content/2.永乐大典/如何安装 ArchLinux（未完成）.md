@@ -21,6 +21,8 @@ pacman -S archinstall --noconfirm && archinstall
 > [!Note]
 > ArchLinux 安装器只支持英语
 
+## 3 安装前配置
+
 ![[archinstall_base.png]]
 
 在这个页面中，可以看到有很多设置选项，其中比较重要的是<br>
@@ -35,7 +37,7 @@ Profile: 决定整个系统的外观<br>
 Audio (音频)<br>
 Network configuration (网络设置): 用于在图形化界面中连接无线网络<br>
 
-## 3.1 镜像
+### 3.1 镜像
 通过键盘上下键移动焦点至 Mirrors 上，按下两次回车
 
 ![[archinstall_mirror.png]]
@@ -46,7 +48,7 @@ Network configuration (网络设置): 用于在图形化界面中连接无线网
 
 随后，移动焦点至 Back, 返回第一页
 
-## 3.2 语言和地区
+### 3.2 语言和地区
 
 移动焦点至 Locales, 按下回车
 
@@ -62,7 +64,7 @@ Network configuration (网络设置): 用于在图形化界面中连接无线网
 
 移动焦点至 Back, 返回第一页
 
-## 3.3 磁盘设置
+### 3.3 磁盘设置
 
 移动焦点至 Disk configuration, 并按下三次回车
 
@@ -87,7 +89,7 @@ Read only: 是否只读，True 为只读，False 为可度可写<br>
 
 将焦点移动到 no, 按下回车, 返回第一页
 
-## 3.4 引导器
+### 3.4 引导器
 
 移动焦点至 Bootloader, 按下回车
 
@@ -95,7 +97,7 @@ Read only: 是否只读，True 为只读，False 为可度可写<br>
 
 移动焦点至 Grub, 按下回车，返回第一页
 
-## 3.5 根密码 & 账户
+### 3.5 根密码 & 账户
 
 移动焦点至 Root password, 按下回车<br>
 选择一个你能记住的密码, 连续输入两次, 回到第一页
@@ -114,7 +116,7 @@ Read only: 是否只读，True 为只读，False 为可度可写<br>
 
 然后移动焦点至 Confirm and exit, 按下回车, 返回第一页
 
-## 3.6 外观配置
+### 3.6 外观配置
 
 移动焦点至 Profile, 按下三次回车
 
@@ -139,7 +141,7 @@ Read only: 是否只读，True 为只读，False 为可度可写<br>
 移动焦点到某一项后, 按下回车<br>
 然后将焦点移动至 Back, 按下回车, 回到第一页
 
-## 3.7 音频
+### 3.7 音频
 
 移动焦点至 Audio, 按下回车
 
@@ -147,7 +149,7 @@ Read only: 是否只读，True 为只读，False 为可度可写<br>
 
 移动焦点至 Pipewire, 按下回车, 回到第一页
 
-## 3.8 网络
+### 3.8 网络
 
 移动焦点至 Network configuration, 按下回车
 
@@ -155,7 +157,7 @@ Read only: 是否只读，True 为只读，False 为可度可写<br>
 
 移动焦点至 use NetworkManager, 按下回车, 回到第一页
 
-## 3.9 时区
+### 3.9 时区
 
 移动焦点至 Timezone, 按下回车<br>
 然后输入
@@ -170,3 +172,29 @@ Read only: 是否只读，True 为只读，False 为可度可写<br>
 安装过程中, 不要断开网络连接, 也不要关闭电脑<br>
 这时你可以坐和放宽(?, 启动原神或在屏幕前等待安装完成<br>
 安装速度由设备性能和网络连接质量决定<br>
+
+## 5 安装完成后
+
+![[archinstall_f.png]]
+
+看到此界面后, 按下回车<br>
+此时 Archlinux 已经安装完毕, 需要一些后续配置<br>
+
+### 5.1 Grub 引导设置
+在终端输入
+```type="bash"
+nano /etc/default/grub
+```
+![[archlinux_post.png]]
+
+通过键盘上下左右键移动光标, 定位到第六行, 以 GRUB_CMDLINE_LINUX_DEFAULT 开头, 并将内容改为
+```type="bash"
+GRUB_CMDLINE_LINUX_DEFAULT="loglevel=3"
+```
+如果你使用的是 Nvidia 显卡, 则需要改为
+```type="bash"
+GRUB_CMDLINE_LINUX_DEFAULT="loglevel=3 nvidia-drm.modeset=1"
+```
+用于确保 Wayland 可以使用<br>
+随后, 按下键盘上的 Ctrl 和 O 键, 然后按下回车<br>
+最后按下 Ctrl 和 X 键退出
