@@ -1,46 +1,3 @@
-
-Bilibili 视频 : [【清朝老片】如何激活 Windows 系统](https://www.bilibili.com/video/BV1N1421k7Sx/)
-
-# 1  通过 MAS 项目进行操作系统激活
-
-## 1.1  项目介绍
-
-MAS 项目是使用 HWID / Ohook / KMS38 / Online KMS 激活方法的 Windows 和 Office 激活器，专注于开源代码和较少的防病毒检测。这个项目对于小白用户来说极为友好，可以在不进行任何复杂操作的前提下，通过一行代码进行操作系统的激活。
-
-Github 链接：[Microsoft-Activation-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts)
-
-## 1.2  激活步骤
-
-用户可以通过以下流程进行操作系统的激活:
-
-1 长按鼠标左键，拖动鼠标选中下方的代码，鼠标的左键单击代码块右上方的复制按钮；
-
-```
-irm https://get.activated.win | iex
-```  
-
-2 鼠标移动到下方任务栏的开始菜单按钮，点击鼠标右键，选择“终端管理员”或“Windows PowerShell(管理员)（A）”，在弹出的窗口中选择“是”；  
-
-3 此时会弹出一个黑色或蓝色的窗口，在窗口内单击鼠标右键，把刚刚复制的代码输入到窗口内； 
-
-4 稍等片刻，此时会弹出一个新的黑色窗口，按一下键盘上的数字“1”，稍作等待，看到 `Permanently Activated` 就激活完成了。  
-
-# 2 通过 KSM 项目进行激活
-
-## 2.1 项目介绍
-
-KSM 通过 `slmgr` 命令激活 Windows 系统和 Office。步骤简单，适配系统众多。对于小白用户来说非常友好，可以在不进行任何复杂操作的前提下，通过一行代码进行操作系统的激活。
-
-Github 链接：[KMS](https://github.com/netnr/kms)
-## 2.2 激活步骤
-
-1 在此`电脑 - 查看`中，于`显示/隐藏`的列表中勾选`文件拓展名`。
-
-![[勾选文件拓展名.png]]
-
-2 在任意文件夹位置的空白处（例如桌面），右键在菜单栏中点击`新建（W）- 文本文档`，在文档中粘贴以下内容后，使用组合键` Ctrl+s `保存。您可以在代码块的右上角点击复制按钮复制以下内容。
-
-```
 @echo off
 REM Get operating system version information
 for /f "tokens=2 delims==" %%i in ('"wmic os get Caption /value"') do set "os=%%i"
@@ -182,16 +139,3 @@ echo Activation completed.
 
 :EOF
 pause
-```
-
-3 并对该文件右键，在菜单栏中点击`重命名(M)`为`程序激活.bat`。
-
-![[创建完毕的激活程序.png]]
-
-4 右键点击`程序激活.bat`，于菜单栏中点击`以管理员身份运行(A)`，片刻后根据提示窗口点击确认即可完成激活。
-
-# 一键激活程序
-
-下方提供的文件为可在 Windows 系统中直接执行的系统激活程序:
-
-![[一键激活程序.bat]]
