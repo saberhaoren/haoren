@@ -100,7 +100,7 @@ e. 推荐勾选 **下载后再部署**（即让 Office Tool Plus 下载完所有
 
 ![image.png](https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/202402162213415.png)
 
-> [!note] 无法安装许可证/未发现许可证 可能的解决方法
+> [!tip] 无法安装许可证/未发现许可证 可能的解决方法
 >
 > 原因①：硬件问题 即设备未及时更新或打补丁 缺少了重要文件
 >
@@ -128,7 +128,7 @@ KMS地址的选择可自行决定，在左侧选择一个 KMS 地址，并输入
 
 ![image.png](https://cdn.jsdelivr.net/gh/shenbourne/Image-Hosting-Service@main/blog/202402162228496.png)
 
-> [!note] 未在此电脑上发现批量许可证 解决办法
+> [!tip] 未在此电脑上发现批量许可证 解决办法
 >
 >重新选择一个带有“批量版”字样的许可证，比如 Office Mondo 2016 批量许可证；再输入一个可用的 KMS 地址。
 
