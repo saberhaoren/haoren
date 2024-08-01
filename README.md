@@ -27,6 +27,8 @@ Bilibili 空间 ：[赛博好人](https://space.bilibili.com/27314150)
 对于技术文章类创作，我们使用完全流程化的图示和文本，用最呆的方式给用户进行技术扫盲。我们的希望是，让呆子也能顺利、安全且高效的操控他的电脑。
 
 # 如何给此项目贡献
+> [!IMPORTANT]
+> 此部分来源于[B站视频《如何给赛博好人投稿》11:48处](https://www.bilibili.com/video/BV1bE421A7Lo/?share_source=copy_web&vd_source=b40d01f22546e916a3bd433a16908393&t=707) 详细步骤可参考上述视频
 
 我们对无投稿基础的用户，最建议的方式是使用Github Desktop + Obsidian进行同步和推送， 您只需要：
 
