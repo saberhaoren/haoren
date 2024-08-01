@@ -49,8 +49,7 @@ JetBrains 的每款IDE一般专业于一种特定的编程语言，对应关系�
 | RubyMine      | Ruby on Rails                    |
 
 > [!NOTE]
-> 目前除PyCharm Community和IntelliJ IDEA Community Edition免费提供外，表格中的其他软件均为付费软件，如有需要，请支持正版。<br>
-> 本站恕不提供表格中软件的破解方法。<br>
+> 目前除PyCharm Community和IntelliJ IDEA Community Edition免费提供外，表格中的其他软件均为付费软件，如有需要，请支持正版，在校大学生请参照本站 如何申请JetBrains教育许可证 <br>本站恕不提供表格中软件的破解方法。<br>
 
 管理以上IDE最方便的方法是使用JetBrains Toolbox App，下面介绍安装和使用方法
 
