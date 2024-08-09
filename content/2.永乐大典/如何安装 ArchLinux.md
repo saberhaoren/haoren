@@ -1,4 +1,6 @@
 # 从 ArchLinux Live 环境安装 ArchLinux
+> [!TIP]
+> 如果你是Linux老手的话，你可以尝试着不用archinstall来安装ArchLinux，而是手动安装，这样可以更好的了解ArchLinux的安装过程。
 ## 0 预先准备
 [制作 Live 环境](/2.永乐大典/如何制作-Linux-Live-环境并启动)
 ## 1 Welcome to ArchLinux!
