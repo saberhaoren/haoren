@@ -10,4 +10,5 @@ private/
 .replit
 replit.nix
 /.idea
+.trash
 
