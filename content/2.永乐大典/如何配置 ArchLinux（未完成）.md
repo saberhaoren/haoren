@@ -1,7 +1,7 @@
 # 配置 ArchLinux
-上一章：[安装 ArchLinux](/2.永乐大典/如何安装-ArchLinux)
+上一章：[[如何安装 ArchLinux|安装 ArchLinux]]
 ## 0 系统总览
-![[kde_size.png]]
+![[kde_size.jpg]]
 整个系统安装完后占用 6.1 GB, 小于 Windows<br>
 系统界面符合 Windows 的操作逻辑, 基本可以快速上手
 ## 1 输入法

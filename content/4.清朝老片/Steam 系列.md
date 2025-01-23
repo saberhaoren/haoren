@@ -30,7 +30,7 @@ Steam官网：[欢迎来到 Steam (store.steampowered.com)](https://store.steamp
 - 点击搜索栏，使用键盘键入 “**Steam**” ，点击键盘上的回车【Enter ↩】
 <br>
 - 在显示的搜索结果中用鼠标滚轮，用你锐利的眼睛找到含有“**官方**”字样的网址 ~~（或者直接点击上面的官网网址跳转）~~ 
-![[official-website.png]](“图0 Steam官网”)
+![[steam-official-website.png]](“图0 Steam官网”)
 <br>
 - 移动鼠标至右上角含“**安装Steam**”字样的图标，点击鼠标左键。
 <br>
@@ -128,7 +128,7 @@ Steam++是一款开源、跨平台的账户管理集成工具，通俗讲就是*
 <br>
 - 进入商店页面后，在页面右上角**键入“壁纸引擎”或“Wallpaper Engine”并按回车以开始搜索**。
 
-![[steam-search.png]](图8 Steam商店页面搜索)
+![[steam-search.jpg]](图8 Steam商店页面搜索)
 
 - 在搜索结果中找到“Wallpaper Engine：壁纸引擎”，鼠标移至此处，单击鼠标左键进去页面。
 
@@ -136,7 +136,7 @@ Steam++是一款开源、跨平台的账户管理集成工具，通俗讲就是*
 
 - 使用鼠标滚轮下滑，鼠标移至“添加至购物车”，点击鼠标左键，弹出的窗口中鼠标左键单击“查看我的购物车”。
 
-![[wallpaper-engine-mainpage.png]](图10 壁纸引擎的商店页面，你可以看看许多人对此软件的评测以确定你是否可以买)
+![[wallpaper-engine-mainpage.jpg]](图10 壁纸引擎的商店页面，你可以看看许多人对此软件的评测以确定你是否可以买)
 
 ![[wallpaper-engine-purchase-0.png]](图11 将壁纸引擎添加至购物车并查看)
 
@@ -153,7 +153,7 @@ Steam++是一款开源、跨平台的账户管理集成工具，通俗讲就是*
 <br>
 - 随后你可以移动鼠标至**屏幕左上角的“库”**，单击鼠标左键，在“主页”下方的按钮可**选择显示的类别**，届时你会在左边栏看到你刚刚购买的《Wallpaper Engine：壁纸引擎》，如图：
 
-![[wallpaper-engine-select.png]]
+![[wallpaper-engine-select.jpg]]
 
 (图14 勾选“游戏”和“软件”分组)
 
