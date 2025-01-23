@@ -2,14 +2,14 @@
 > [!TIP]
 > 如果你是Linux老手的话，你可以尝试着不用archinstall来安装ArchLinux，而是手动安装，这样可以更好的了解ArchLinux的安装过程。
 ## 0 预先准备
-[制作 Live 环境](/2.永乐大典/如何制作-Linux-Live-环境并启动)
+[[如何制作 Linux Live 环境并启动|制作 Live 环境]]
 ## 1 Welcome to ArchLinux!
 刚进入 Live 环境时，会显示如下内容，单击回车<br>
-![[archlinux_boot.png]]
+![[archlinux_boot.jpg]]
 接着屏幕会显示内核启动消息，并出现如下内容<br>
-![[archlinux_welcome.png]]
+![[archlinux_welcome.jpg]]
 欢迎来到 ArchLinux 的世界!<br>
-![[archlinux_shell.png]]
+![[archlinux_shell.jpg]]
 直到出现这个界面，就说明已经进入了 Live 环境，可以开始安装
 ## 2 进入安装界面 (手动安装)
 > [!Note]
@@ -25,7 +25,7 @@ pacman -S archinstall --noconfirm && archinstall
 
 ## 3 安装前配置
 
-![[archinstall_base.png]]
+![[archinstall_base.jpg]]
 
 在这个页面中，可以看到有很多设置选项，其中比较重要的是<br>
 Mirrors (镜像): 用于加快下载速度<br>
@@ -42,7 +42,7 @@ Network configuration (网络设置): 用于在图形化界面中连接无线网
 ### 3.1 镜像
 通过键盘上下键移动焦点至 Mirrors 上，按下两次回车
 
-![[archinstall_mirror.png]]
+![[archinstall_mirror.jpg]]
 
 出现该界面后，移动焦点至 China, 并按下回车
 
@@ -58,7 +58,7 @@ Network configuration (网络设置): 用于在图形化界面中连接无线网
 
 再次移动焦点至 Locale language, 按下回车
 
-![[archinstall_locale_0.png]]
+![[archinstall_locale_0.jpg]]
 
 在该界面下输入 /zh_CN.UTF-8, 并按下回车
 
@@ -70,7 +70,7 @@ Network configuration (网络设置): 用于在图形化界面中连接无线网
 
 移动焦点至 Disk configuration, 并按下三次回车
 
-![[archinstall_disk.png]]
+![[archinstall_disk.jpg]]
 
 每一列分别为：<br>
 Model: 设备型号<br>
@@ -80,7 +80,7 @@ Size: 磁盘大小<br>
 Free Space: 空余空间<br>
 Sector size: 扇区大小<br>
 Read only: 是否只读，True 为只读，False 为可度可写<br>
-在这里寻找正确的磁盘，具体寻找过程查看 [制作 Live 环境](/2.永乐大典/如何制作-Linux-Live-环境并启动#2-创建-live-环境) 的第二小节<br>
+在这里寻找正确的磁盘，具体寻找过程查看 [[如何制作 Linux Live 环境并启动#2 创建 Live 环境|制作 Live 环境]] 的第二小节<br>
 将焦点移动至正确的硬盘上，按下回车
 
 ![[archinstall_disk_0.png]]
@@ -122,15 +122,15 @@ Read only: 是否只读，True 为只读，False 为可度可写<br>
 
 移动焦点至 Profile, 按下三次回车
 
-![[archinstall_profile.png]]
+![[archinstall_profile.jpg]]
 
 然后移动焦点至 Kde, 按下回车
 
-![[archinstall_profile_driver.png]]
+![[archinstall_profile_driver.jpg]]
 
 移动焦点至 Graphics driver, 按下回车
 
-![[archinstall_profile_driver_s.png]]
+![[archinstall_profile_driver_s.jpg]]
 
 选择合适的显卡驱动
 
@@ -187,7 +187,7 @@ Read only: 是否只读，True 为只读，False 为可度可写<br>
 ```type="bash"
 nano /etc/default/grub
 ```
-![[archlinux_post.png]]
+![[archlinux_post.jpg]]
 
 通过键盘上下左右键移动光标, 定位到第六行, 以 GRUB_CMDLINE_LINUX_DEFAULT 开头, 并将内容改为
 ```type="bash"
@@ -211,11 +211,11 @@ grub-mkconfig -o /boot/grub/grub.cfg && pacman -S noto-fonts-cjk --noconfirm
 
 输入 exit, 按下回车, 然后输入 reboot, 重启电脑, 这时拔下 U 盘
 
-![[archlinux_login.png]]
+![[archlinux_login.jpg]]
 
 输入密码
 
-![[kde_base.png]]
+![[kde_base.jpg]]
 
 出现如图中的 OOBE 后, 说明 ArchLinux 安装完成<br>
-但是目前系统内还没有中文输入法, 如果需要进一步配置, 查看 [配置 ArchLinux](/2.永乐大典/如何配置-ArchLinux（未完成）)
+但是目前系统内还没有中文输入法, 如果需要进一步配置, 查看 [[如何配置 ArchLinux（未完成）|配置 ArchLinux]]

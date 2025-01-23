@@ -8,7 +8,7 @@ Win10下载地址：https://www.microsoft.com/zh-cn/software-download/windows10
 
 使用浏览器打开下载地址，在官网下载win10镜像时先要下载媒体创建工具，如下图所示，点击立即下载工具
 
-![[1.png]]
+![[1.jpg]]
 
 下载完成后，运行MediaCreationTool_22H2.exe，等待一会，看到许可条款时，点击右下角的接受按钮
 
@@ -48,7 +48,7 @@ Win11下载地址：https://www.microsoft.com/zh-cn/software-download/windows11
 
 使用浏览器打开下载地址，找到下载Windows11磁盘映像（ISO），选择下载项，点击下载
 
-![[10.png]]
+![[10.jpg]]
 ### 2. MSDN,我告诉你
 
 ```
@@ -66,4 +66,4 @@ Win11下载地址：https://www.microsoft.com/zh-cn/software-download/windows11
 
 下载方法与上面的类似，在绿色的ed2k按钮上鼠标右键，然后选择复制链接，最后黏贴到迅雷等软件中即可下载
 
-![[12.png]]
+![[12.jpg]]

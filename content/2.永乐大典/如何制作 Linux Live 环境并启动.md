@@ -60,7 +60,7 @@ ArchLinux iso 下载地址：https://mirrors.aliyun.com/archlinux/iso/2024.07.01
 lsblk -f
 ```
 你应该可以得到以下输入结果
-![[linux_lsblk.png]]
+![[linux_lsblk.jpg]]
 列含义：<br>
 NAME: linux 中的设备名，省略了 "/dev/"<br>
 FSTYPE: 文件系统类型，例如 Windows 的 ntfs, linux 的 ext4, zfs 和 btrfs, 以及通用的 vfat 等<br>
@@ -85,9 +85,9 @@ sudo dd if=～/Downloads/archlinux-2024.07.01-x86_64.iso of=/dev/sda
 1. 从 U 盘启动
 确保电脑处于关机状态，按电源键开机，在看到品牌标志图片时按下f2（不同电脑和主板进入的方式不同），进入启动项选择的界面，使用上下键选择您的USB设备并按下回车键进入。
 
-![[boot.png]]
-![[bootmanager.png]]
+![[universal-boot.jpg]]
+![[universal-bootmanager.png]]
 
 ## 4 继续安装
 这时待安装 Linux 的电脑应该已经进入了 Live 环境，点击下方的链接继续安装进程<br>
-「ArchLinux」发行版 --- [安装 ArchLinux](/2.永乐大典/如何安装-ArchLinux)
+「ArchLinux」发行版 --- [[如何安装 ArchLinux|安装 ArchLinux]]
